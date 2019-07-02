@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import FrameComponent from './components/FrameComponent';
+import Dashboard from './components/Dashboard';
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-        <FrameComponent>
-        </FrameComponent>
+        <Dashboard>
+        </Dashboard>
       </div>
     );
   }
