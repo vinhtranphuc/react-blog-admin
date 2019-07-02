@@ -10,11 +10,16 @@ class Dashboard extends Component {
         return (
             <Router>
                 <>
-                    <h1>Dashboard</h1>
-                    <Header/>
-                    <SideBar/>
-                    <Footer/>
-                    <Content/>
+                    <div class="m-grid m-grid--hor m-grid--root m-page">
+                        <Header>
+                        </Header>
+                        <Content>
+                        </Content>
+                        <SideBar >
+                        </SideBar>
+                        <Footer>
+                        </Footer>
+                    </div>
                 </>
             </Router>
         )

@@ -1,12 +1,13 @@
 @import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
+
 /** begin::Base Styles */
 /** begin::Page Vendors */
-@import url('./styles/vendors/custom/fullcalendar/fullcalendar.bundle.css');
+@import url('./common/styles/vendors/custom/fullcalendar/fullcalendar.bundle.css');
 /** end::Page Vendors*/
-@import url('./styles/vendors/base/vendors.bundle.css');
-@import url('./styles/demo/default/base/style.bundle.css');
+@import url('./common/styles/vendors/base/vendors.bundle.css');
+@import url('./common/styles/demo/default/base/style.bundle.css');
 /** end::Base Styles*/
 
 /** begin::Custom CSS */
-@import url('./styles/admin.css');
+@import url('./common/styles/admin.css');
 /** end::Custom CSS */
